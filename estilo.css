@@ -1,0 +1,174 @@
+.header{ 
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    background-color: rgb(177, 228, 100);
+    padding: 10 0 0 10;
+    height: 100
+    
+}
+
+
+ul.secciónes li {
+    color: black;
+    display:  inline-block ;
+    list-style: none;
+    margin: 10px 0 0 10px;
+}
+.secciónes a{
+      
+     text-decoration: none;
+} 
+ .secciónes a:hover{
+    color: gray;
+} 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.img{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1{
+    background-image: url(imagenes/foto1.jpg);
+}
+.img2{
+    background-image: url(imagenes/foto2.jpg);
+}
+.img3{
+    background-image: url(imagenes/foto3.jpg);
+}
+.img4{
+    background-image: url(imagenes/foto5.jpg);
+}
+.img5{
+    background-image: url(imagenes/foto6.jpg);
+}
+.img6{
+    background-image: url(imagenes/foto4.jpg);
+}
+
+
+footer{
+     background-color: rgb(177, 228, 100) ;
+     color: black;
+     padding: 30px;
+     text-align: center;
+     margin-top: 20px;
+}
+
+   
+footer a{
+    color: black;
+    letter-spacing: 5px;
+}
+.redes{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+
+/*productos*/
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+    background-color:rgb(177, 228, 100) ;
+}
+
+.navmenú{
+    display: grid;
+    grid-template-columns: auto
+}
+
+.navmenú1, .navmenú2, .navmenú3, .navmenú4{
+    border: 1px solid  #ccc;
+    padding: 5px;
+}
+.navmenú ul{
+    list-style: none;
+    padding: 0;
+}
+.navmenú ul li {
+    margin-bottom: 10px;
+}
+.navmenú ul ul{
+    display: none;
+    margin-left: 20px;
+}
+.navmenú ul li:hover> ul {
+    display: block;
+}
+.logo{
+    background-image:url(logo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
+/*historia*/
+.f-letter::first-letter{
+    color:rgb(177, 228, 100) ;
+    font-size: 45px;
+}
+
+.parrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.link:link{
+    background-color: greenyellow ;
+    color:rgb(177, 228, 100) ;
+}
+/*no me queda*/
+.imgfondo{
+    background-image: url(historia.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+/*contacto*/
+.titulo{
+    background-color:rgb(177, 228, 100) ;
+    height: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    border: #ccc;
+    font-size: 30px;
+    box-shadow: inset 0 0 5px rgb(177, 228, 100);
+    background-color: beige;
+}
+
+
+.check{
+    display: grid;
+    place-items: center;
+}
+.checked:checked{
+    accent-color: rgb(31, 165, 31) ;
+}
+
+/*redees sociales */
+
+
+.maps{
+    background-color: black;
+}
